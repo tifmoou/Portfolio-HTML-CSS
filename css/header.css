@@ -15,6 +15,11 @@
   justify-content: center;
 }
 
+.header-menu a:hover {
+  background-color: #dde7ff;
+  border-radius: 5px;
+}
+
 .header-menu a {
   font-size: 1.125rem;
   line-height: 1.3;
