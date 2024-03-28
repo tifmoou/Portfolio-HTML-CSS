@@ -6,7 +6,6 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
-
 .introducao {
   align-items: center;
 }
@@ -58,11 +57,15 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .introducao {
     grid-template-columns: 1fr;
   }
   .introducao img {
     display: none;
+  }
+  .introducao h1 {
+    font-size: 2.8rem;
+    word-break: break-all;
   }
 }
